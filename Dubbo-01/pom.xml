@@ -11,7 +11,12 @@
 
     <groupId>com.baoyu</groupId>
     <artifactId>Dubbo-01</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>dubbo-interface</module>
+        <module>dubbo-provider</module>
+    </modules>
 
 
 </project>
