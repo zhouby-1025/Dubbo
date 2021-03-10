@@ -13,6 +13,7 @@ public class ConsumerService {
     private ProviderServiceInterface providerService;
 
     public String test(){
+        //use remote http call to a simple demo
         String result = HttpClient.get("http://localhost:8080/provider/service");
         User user = JSONObject.parseObject(result, User.class);
         return user.getName();
