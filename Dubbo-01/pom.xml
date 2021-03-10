@@ -17,6 +17,7 @@
         <module>dubbo-interface</module>
         <module>dubbo-provider</module>
         <module>dubbo-consumer</module>
+        <module>dubbo-simulate</module>
     </modules>
 
     <properties>
