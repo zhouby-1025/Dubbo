@@ -8,8 +8,8 @@ public class Consumer {
     public static void main(String[] args) {
 
         HelloService helloService = ProxyFactory.getProxy(HelloService.class);
-        String xxx = helloService.sayHello("xx22x");
-        System.out.println(xxx);
+        String result = helloService.sayHello("xx22x");
+        System.out.println(result);
 
 
     }
