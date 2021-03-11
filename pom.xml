@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Dubbo-01</module>
+        <module>Dubbo-01/dubb-simulate</module>
     </modules>
 
 
