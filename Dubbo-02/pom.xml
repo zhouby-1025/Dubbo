@@ -3,27 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.baoyu</groupId>
         <artifactId>baoyu-dubbo</artifactId>
+        <groupId>com.baoyu</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.baoyu</groupId>
-    <artifactId>Dubbo-01</artifactId>
+    <artifactId>Dubbo-02</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
     <modules>
-        <module>dubbo-interface</module>
-        <module>dubbo-provider</module>
-        <module>dubbo-consumer</module>
-        <module>dubbo-simulate</module>
+        <module>interface</module>
+        <module>provider</module>
     </modules>
 
     <properties>
-        <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
-        <dubbo.version>2.7.3</dubbo.version>
-        <tomcat.version>8.5.31</tomcat.version>
+        <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
+        <dubbo.version>2.7.5</dubbo.version>
     </properties>
 
     <dependencyManagement>
